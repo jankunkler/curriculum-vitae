@@ -63,14 +63,6 @@ cv:
         highlights:
           - "Engagement: Taught over 250 students in Master's and Bachelor's Degrees in Controlling & Logistics."
           - 'Mentorship: Supervised 6 Bachelor and 3 Master Theses in topics concerned with Digitalization of Supply Chain Operations.'
-      - company: University of Regensburg
-        position: Research Associate
-        location: Regensburg, DE
-        start_date: 2019-09
-        end_date: 2023-03
-        highlights:
-          - "Performance: Achieved a 100% satisfaction rate in teaching evaluations for Supply Chain Management (>30 Master Students)."
-          - 'Mentorship: Supervised 30+ theses, enhancing student research quality and industry collaboration.'
       - company: NG.network
         position: Data Science Consultation (Freelancer)
         location: Remote
@@ -101,6 +93,22 @@ cv:
         highlights:
           - 'Innovation: Developed the RESET app for student self-assessment, adopted by 500+ students.'
           - 'Collaboration: Worked with Prof. Dr. Thomas Löw, enhancing academic and practical application of the project.'
+      - company: University of Regensburg
+        position: Research Associate
+        location: Regensburg, DE
+        start_date: 2019-09
+        end_date: 2023-03
+        highlights:
+          - "Performance: Achieved a 100% satisfaction rate in teaching evaluations for Supply Chain Management (>30 Master Students)."
+          - 'Mentorship: Supervised 30+ theses, enhancing student research quality and industry collaboration.'
+      - company: University of Regensburg
+        position: Research Assistant
+        location: Regensburg, DE
+        start_date: 2018-08
+        end_date: 2019-08
+        highlights:
+          - 'Teaching: Tutor for Supply Chain Management (M.Sc.) and Controlling (M.Sc.).'
+          - 'Research: Assistance in data gathering and preparation for three publications and two lectures.'
       - company: Veolia Industriepark Deutschland
         position: Assistant Software Implementation
         location: Heinsberg, DE

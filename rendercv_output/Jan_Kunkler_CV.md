@@ -57,13 +57,6 @@ A dedicated data scientist with nearly 10 years of experience, I specialize in h
 - Engagement: Taught over 250 students in Master's and Bachelor's Degrees in Controlling & Logistics.
 - Mentorship: Supervised 6 Bachelor and 3 Master Theses in topics concerned with Digitalization of Supply Chain Operations.
 
-## University of Regensburg, Research Associate
-
-- Sept 2019 – Mar 2023
-- Regensburg, DE
-- Performance: Achieved a 100% satisfaction rate in teaching evaluations for Supply Chain Management (>30 Master Students).
-- Mentorship: Supervised 30+ theses, enhancing student research quality and industry collaboration.
-
 ## NG.network, Data Science Consultation (Freelancer)
 
 - Apr 2023 – July 2023
@@ -89,6 +82,20 @@ A dedicated data scientist with nearly 10 years of experience, I specialize in h
 - Burglengenfeld, DE
 - Innovation: Developed the RESET app for student self-assessment, adopted by 500+ students.
 - Collaboration: Worked with Prof. Dr. Thomas Löw, enhancing academic and practical application of the project.
+
+## University of Regensburg, Research Associate
+
+- Sept 2019 – Mar 2023
+- Regensburg, DE
+- Performance: Achieved a 100% satisfaction rate in teaching evaluations for Supply Chain Management (>30 Master Students).
+- Mentorship: Supervised 30+ theses, enhancing student research quality and industry collaboration.
+
+## University of Regensburg, Research Assistant
+
+- Aug 2018 – Aug 2019
+- Regensburg, DE
+- Teaching: Tutor for Supply Chain Management (M.Sc.) and Controlling (M.Sc.).
+- Research: Assistance in data gathering and preparation for three publications and two lectures.
 
 ## Veolia Industriepark Deutschland, Assistant Software Implementation
 

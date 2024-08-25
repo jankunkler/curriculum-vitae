@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  25 AUG 2024 04:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  25 AUG 2024 06:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -647,18 +647,18 @@ ome5/fa5free2.enc}{/home/vscode/.local/lib/python3.12/site-packages/rendercv/re
 nderer/tinytex-release/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1
 .enc}{/home/vscode/.local/lib/python3.12/site-packages/rendercv/renderer/tinyte
 x-release/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}]
-Overfull \hbox (4.85881pt too wide) in paragraph at lines 382--383
+Overfull \hbox (4.85881pt too wide) in paragraph at lines 367--368
 []\T1/bch/m/n/10 Innovation: De-vel-oped the RE-SET app for stu-dent self-asses
 sment, adopted
  []
 
 
-Overfull \hbox (7.4095pt too wide) in paragraph at lines 447--448
+Overfull \hbox (7.4095pt too wide) in paragraph at lines 462--463
 []\T1/bch/b/n/10 Towards Sus-tain-able Cities: Uti-liz-ing Float-ing Car Data t
 o Sup-port Location-
  []
 
-[2] 
+[2] [3] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./Jan_Kunkler_CV.aux)
  ***********
@@ -667,8 +667,8 @@ L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15080 strings out of 476002
- 269510 string characters out of 5788363
+ 15081 strings out of 476002
+ 269516 string characters out of 5788363
  1951496 words of memory out of 5000000
  37016 multiletter control sequences out of 15000+600000
  585831 words of font info for 58 fonts, out of 8000000 for 9000
@@ -688,10 +688,10 @@ code/.local/lib/python3.12/site-packages/rendercv/renderer/tinytex-release/Tiny
 TeX/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></home/vscode/.local/lib
 /python3.12/site-packages/rendercv/renderer/tinytex-release/TinyTeX/texmf-dist/
 fonts/type1/bitstrea/charter/bchri8a.pfb>
-Output written on Jan_Kunkler_CV.pdf (2 pages, 113937 bytes).
+Output written on Jan_Kunkler_CV.pdf (3 pages, 114734 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
+ 99 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

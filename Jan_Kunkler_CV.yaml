@@ -1,188 +1,328 @@
 cv:
-  name: Jan Kunkler
+  name: Dr. Jan Kunkler
   location: Regensburg, Germany
   email: mail@jankunkler.de
-  phone: tel:+49-(0)-160-951-31-829
-  website: https://jankunkler.de
+  phone: "+49016095131829"
+  website: https://www.jankunkler.de
   social_networks:
     - network: LinkedIn
       username: jankunkler
     - network: GitHub
-      username: jpkunkler
+      username: jankunkler
   sections:
-    biography:
-      - 'A dedicated data scientist with nearly 10 years of experience, I specialize in harnessing data to drive strategic decision-making. My programming interests span both frontend and backend development, enabling me to create comprehensive solutions that enhance operational efficiency. With a focus on sustainable logistics and innovative data applications, I am committed to leveraging technology to solve real-world challenges.'
+    summary:
+      - AI leader and Principal Data Scientist specializing in enterprise AI strategy and implementation. Currently driving Vertical AI initiatives at Lobster, developing innovative solutions in GenAI, knowledge management, and intelligence orchestration. Combines technical expertise in machine learning with business acumen to deliver practical AI solutions. Active educator in AI and programming, with a PhD in data science and proven track record of bridging research and industry applications.
     education:
       - institution: University of Regensburg
-        area: Business Administration
-        degree: Dr.
+        area: Supply Chain and Logistics
+        degree: PhD
+        date:
         start_date: 2020-06
         end_date: 2023-02
+        location: Regensburg, DE
+        summary: Machine Learning applications in logistics network optimization and sustainable transportation systems
         highlights:
-          - 'Dissertation: Road Network Performance Measurements (magna cum laude)'
-          - 'Research Interests: Decision Support Systems, Sustainable Operations & Green Logistics'
+          - Developed novel machine learning models for road network performance prediction and optimization
+          - Published multiple peer-reviewed papers on sustainable city evaluation
+          - Led research initiatives in sustainable logistics and network performance optimization
+
       - institution: University of Regensburg
+        area: Supply Chain Management
+        degree: MSc
+        date:
+        start_date: 2017-09
+        end_date: 2019-06
+        location: Regensburg, DE
+        summary: Specialized in data-driven decision making and quantitative methods for supply chain optimization
+
+      - institution: Universität Trier
         area: Business Administration
-        degree: M.Sc.
-        start_date: 2017-10
-        end_date: 2019-09
-        highlights:
-          - 'Thesis: Evaluation of aerial photographs to support transport calculations (1.3)'
-          - 'Focus: Industrial Management, Management & Leadership, Business Informatics'
-      - institution: University of Trier
-        area: Business Administration
-        degree: B.Sc.
-        start_date: 2013-10
-        end_date: 2017-02
-        highlights:
-          - 'Thesis: Relevance of Social Media in B2B Industrial Automation (1.7)'
-          - 'Focus: Marketing Research & Management'
+        degree: BSc
+        date:
+        start_date: 2013-09
+        end_date: 2017-06
+        location: Trier, DE
+        summary: Focus on business intelligence and statistical analysis
+
     experience:
       - company: Lobster
         position: Principal Data Scientist
-        location: Tutzing, DE
+        date:
         start_date: 2024-06
-        highlights:
-          - 'Spearheading the data and AI strategy to drive innovation and operational efficiency across the organization.'
-          - 'Establishing a comprehensive machine learning and AI stack from the ground up, enhancing data-driven decision-making capabilities.'
-          - 'Leading cross-functional teams to develop and implement advanced information retrieval solutions, resulting in a 40% improvement in retrieval accuracy.'
-          - 'Collaborating with stakeholders to identify key business challenges and leverage data insights to inform strategic initiatives.'
-      - company: logistics.cloud
-        position: Digital Solutions Manager
+        end_date: present
         location: Tutzing, DE
+        summary: Spearheading data & AI strategy for enterprise data integration and process automation solutions
+        highlights:
+          - Developed and implementing company-wide Vertical AI Strategy, aligning technology initiatives with business objectives
+          - Leading end-to-end development of mission-critical AI initiatives, directly reporting to CTO and CPO
+          - Developing AI-powered automation solutions including technical documentation generation (SALMON) and intelligent mapping systems (MAPS)
+          - Architected classification system (CREW) achieving 74% F1 score and in-memory retrieval system (SPLASH)
+          - Establishing API-first centralized knowledge management system (BRAIN) for unified documentation and knowledge access
+          - Orchestrating collaboration between Data Center Cloud IT, Support, and Engineering teams
+
+      - company: OTH Regensburg
+        position: Visiting Lecturer
+        date:
+        start_date: 2024-10
+        end_date: present
+        location: Regensburg, DE
+        summary: Teaching fundamentals of programming and AI to Digital Business Management students
+        highlights:
+          - Developing practical curriculum combining Python programming and AI fundamentals
+          - Bridging business management and technology through industry-relevant instruction
+          - Fostering data-driven decision making and problem-solving skills
+
+      - company: logistics cloud
+        position: Digital Solutions Manager
+        date:
         start_date: 2023-10
-        end_date: 2024-05
+        end_date: 2024-06
+        location: Tutzing, DE
+        summary: Led digital transformation for cloud-based logistics platform serving major European transportation providers
         highlights:
-          - 'Impact: Established Customer Success Process to deliver customized logistics solutions at 40% increased operational efficiency.'
-          - 'Leadership: Managed a cross-functional team of 10 specialists, delivering projects on time and within budget.'
+          - Developed platform connecting shippers, forwarders, carriers, and customs
+          - Implemented IoT tracking and blockchain services for supply chain transparency
+          - Established marketplace for predictive analytics and compliance services
+
       - company: University of Regensburg
-        position: Postdoc // Interim Chair
-        location: Regensburg, DE
-        start_date: 2023-04
+        position: Postdoctoral Research Associate
+        date:
+        start_date: 2023-03
         end_date: 2023-09
-        highlights:
-          - "Engagement: Taught over 250 students in Master's and Bachelor's Degrees in Controlling & Logistics."
-          - 'Mentorship: Supervised 6 Bachelor and 3 Master Theses in topics concerned with Digitalization of Supply Chain Operations.'
-      - company: NG.network
-        position: Data Science Consultation (Freelancer)
-        location: Remote
-        start_date: 2023-04
-        end_date: 2023-07
-        highlights:
-          - "Collaboration: Empirical study of in-hub fulfillment processes throughout five German locations."
-          - "Result: Developed a calculation framework for 48 regional companies, improving network efficiency by 28%."
-      - company: System Alliance
-        position: Data Science Consultation (Freelancer)
-        location: Remote
-        start_date: 2022-04
-        end_date: 2022-10
-        highlights:
-          - "Cost Reduction: Created an updated freight cost model that reduced expenses by 12% for 47 regional companies."
-      - company: DHL Freight
-        position: Data Science Consultation (Freelancer)
-        location: Remote
-        start_date: 2021-06
-        end_date: 2023-03
-        highlights:
-          - "Network Optimization: Designed a freight cost model for a distribution network covering 44 locations, improving logistics efficiency by 18%."
-      - company: Braun & Kunkler GbR
-        position: Co-Founder // Full-Stack Developer
-        location: Burglengenfeld, DE
-        start_date: 2020-06
-        end_date: 2022-03
-        highlights:
-          - 'Innovation: Developed the RESET app for student self-assessment, adopted by 500+ students.'
-          - 'Collaboration: Worked with Prof. Dr. Thomas Löw, enhancing academic and practical application of the project.'
-      - company: University of Regensburg
-        position: Research Associate
         location: Regensburg, DE
+        highlights:
+          - Served as Interim Chair for Controlling and Logistics
+          - Led M.Sc./B.Sc. programs with 250+ students
+          - Supervised research in city logistics and AI applications
+          - Developed advanced analytics curriculum for supply chain optimization
+
+      - company: Freelance
+        position: Data Science Consultant
+        date:
+        start_date: 2021-01
+        end_date: 2023-10
+        location: Regensburg, DE
+        highlights:
+          - Developed freight tariffs for six prominent German Transportation Service Providers
+          - Collaborated with Prof. Dr. Andreas Otto on logistics optimization projects
+
+      - company: Braun & Kunkler GbR
+        position: Co-Founder & Technical Lead
+        date:
+        start_date: 2020-01
+        end_date: 2022-04
+        location: Burglengenfeld, DE
+        highlights:
+          - Developed award-winning RESET App for student self-regulation
+          - Collaborated with medical professionals on behavioral intervention strategies
+          - Led full-stack development including ML model integration
+
+      - company: University of Regensburg
+        position: Research Fellow
+        date:
         start_date: 2019-09
         end_date: 2023-03
-        highlights:
-          - "Performance: Achieved a 100% satisfaction rate in teaching evaluations for Supply Chain Management (>30 Master Students)."
-          - 'Mentorship: Supervised 30+ theses, enhancing student research quality and industry collaboration.'
-      - company: University of Regensburg
-        position: Research Assistant
         location: Regensburg, DE
-        start_date: 2018-08
-        end_date: 2019-08
         highlights:
-          - 'Teaching: Tutor for Supply Chain Management (M.Sc.) and Controlling (M.Sc.).'
-          - 'Research: Assistance in data gathering and preparation for three publications and two lectures.'
-      - company: Veolia Industriepark Deutschland
-        position: Assistant Software Implementation
-        location: Heinsberg, DE
+          - Led research in ML applications for logistics network optimization
+          - Supervised 50+ theses in Supply Chain Management and AI
+          - Developed predictive models for transportation networks
+          - Integrated data science approaches into logistics research
+
+      - company: Early Career Experience
+        position: Various Positions
+        date:
         start_date: 2017-08
-        end_date: 2018-01
+        end_date: 2019-08
+        location: Germany
+        summary: Early career positions in research and industry
         highlights:
-          - 'Implementation: Launched the BizzPark app at the Heinsberg site, improving operational trucking workflows.'
-    publications:
+          - "Research Assistant at University of Regensburg (2018-2019): Supply Chain Management research and teaching"
+          - "Digital Solutions at Veolia Deutschland (2017): Implemented BizzPark app for business park management"
+
+    skills:
+      - label: AI Leadership
+        details: AI Strategy Development, Enterprise AI Architecture, Cross-functional Team Leadership, AI Education & Mentorship
+
+      - label: AI/ML Expertise
+        details: Large Language Models, Agentic AI, Multi-Agent Systems, Neural Networks, Machine Learning, MLOps
+
+      - label: Technical Infrastructure
+        details: AWS (SageMaker, Bedrock, Lambda, Fargate), Cloud Architecture, Distributed Systems
+
+      - label: Data Engineering
+        details: Knowledge Graphs, ETL Pipeline Design, Python, SQL, R, Go
+
+      - label: Tools & Frameworks
+        details: PyTorch, LangChain, Hugging Face Transformers, BAML, Pydantic-AI, Docker, FastAPI, MLflow, Weights & Biases, Metaflow, Ray, Streamlit, Gradio
+
+    publications & books:
+      - title: "Road Network Performance Measurements (Book)"
+        authors:
+          - "***Jan Kunkler***"
+        doi: 10.5283/EPUB.53802
+        date: 2023-03
       - title: Sustainable City Evaluation Using the Database for Estimation of Road Network Performance
         authors:
-          - '***Jan Kunkler***'
+          - "***Jan Kunkler***"
           - Florian Kellner
         doi: 10.3390/su15010733
         date: 2022-12
-      - title: 'Speed Limit Induced CO2 Reduction on Motorways: Enhancing Discussion Transparency through Data Enrichment of Road Networks'
+      - title: "Speed Limit Induced CO2 Reduction on Motorways: Enhancing Discussion Transparency through Data Enrichment of Road Networks"
         authors:
-          - '***Jan Kunkler***'
+          - "***Jan Kunkler***"
           - Maximilian Braun
           - Florian Kellner
         doi: 10.3390/su13010395
         date: 2021-01
-      - title: 'Towards Sustainable Cities: Utilizing Floating Car Data to Support Location-Based Road Network Performance Measurements'
+      - title: "Towards Sustainable Cities: Utilizing Floating Car Data to Support Location-Based Road Network Performance Measurements"
         authors:
           - Maximilian Braun
-          - '***Jan Kunkler***'
+          - "***Jan Kunkler***"
           - Florian Kellner
         doi: 10.3390/su12198145
         date: 2020-10
-    books:
-      - title: 'Road Network Performance Measurements'
-        authors:
-          - '***Jan Kunkler***'
-        doi: 10.5283/EPUB.53802
-        date: 2023-03
-    technologies:
-      - label: Languages
-        details: C#, Go, JavaScript, LATEX, Python, R, Scala, shellscript, SQL, VBA
-      - label: Technologies
-        details: AWS, d3.js, Flask, Flutter, Git, Metaflow, OSMnx, pyTorch, QGIS, Svelte, Tableau, streamlit
+
 design:
-  theme: classic
-  font: Charter
-  font_size: 10pt
-  page_size: a4paper
-  color: '#000000'
-  disable_external_link_icons: false
-  disable_page_numbering: false
-  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  disable_last_updated_date: false
-  last_updated_date_style: Last updated in TODAY
-  header_font_size: 30 pt
-  text_alignment: justified
-  seperator_between_connections: ''
-  use_icons_for_connections: true
-  margins:
-    page:
-      top: 2 cm
-      bottom: 2 cm
-      left: 2 cm
-      right: 2 cm
-    section_title:
-      top: 0.3 cm
-      bottom: 0.2 cm
-    entry_area:
-      left_and_right: 0.2 cm
-      vertical_between: 0.2 cm
-      date_and_location_width: 4.5 cm
-      education_degree_width: 1 cm
-    highlights_area:
-      top: 0.10 cm
-      left: 0.4 cm
-      vertical_between_bullet_points: 0.10 cm
-    header:
-      vertical_between_name_and_connections: 0.3 cm
-      bottom: 0.3 cm
-      horizontal_between_connections: 0.5 cm
-  show_timespan_in: []
+  theme: engineeringresumes
+  page:
+    size: a4
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: false
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: XCharter
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: true
+    use_external_link_icon: false
+  header:
+    name_font_family: XCharter
+    name_font_size: 25pt
+    name_bold: false
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: XCharter
+    separator_between_connections: "|"
+    use_icons_for_connections: false
+    alignment: center
+  section_titles:
+    type: with-parial-line
+    font_family: XCharter
+    font_size: 1.2em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.55cm
+    vertical_space_below: 0.3cm
+    line_type: with-full-line
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 0.4cm
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0cm
+    vertical_space_between_highlights: 0.19cm
+    horizontal_space_between_bullet_and_highlight: 0.3em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: "**LABEL:** DETAILS"
+    education_entry:
+      main_column_first_row_template: "**INSTITUTION**, DEGREE in AREA -- LOCATION"
+      degree_column_template:
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    normal_entry:
+      main_column_first_row_template: "**NAME** -- **LOCATION**"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    experience_entry:
+      main_column_first_row_template: "**POSITION**, COMPANY -- LOCATION"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    publication_entry:
+      main_column_first_row_template: "**TITLE**"
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+
+rendercv_settings:
+  date: "2025-02-21"
+  render_command:
+  bold_keywords: []

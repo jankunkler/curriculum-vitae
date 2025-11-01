@@ -3,7 +3,7 @@
 
 #let name = "Dr. Jan Kunkler"
 #let locale-catalog-page-numbering-style = context { "Dr. Jan Kunkler - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in Feb 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in Nov 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "a4"
 #let design-section-titles-font-size = 1.2em
@@ -451,12 +451,10 @@
 
 // Print connections:
 #let connections-list = (
-  [Regensburg, Germany],
+  [Straubing, Germany],
   [#box(original-link("mailto:mail@jankunkler.de")[mail\@jankunkler.de])],
   [#box(original-link("tel:+49-160-95131829")[0160 95131829])],
-  [#box(original-link("https://www.jankunkler.de/")[www.jankunkler.de])],
   [#box(original-link("https://linkedin.com/in/jankunkler")[linkedin.com\/in\/jankunkler])],
-  [#box(original-link("https://github.com/jankunkler")[github.com\/jankunkler])],
 )
 #connections(connections-list)
 
@@ -466,7 +464,7 @@
 
 
 #one-col-entry(
-  content: [AI leader and Principal Data Scientist with extensive experience in enterprise AI innovation and implementation across multiple domains. Currently driving Vertical AI initiatives, developing cutting-edge solutions in GenAI, computer vision, and intelligence orchestration. Ten-year journey in AI\/ML includes successful implementations of production-ready AI systems, combining deep technical expertise with strong business acumen. Active educator and mentor in AI, with a PhD in data science and proven track record of translating research into scalable industry solutions.]
+  content: [Principal AI Engineer building production agentic AI systems for enterprise data integration and EDI. Leading development of Pathfinder AI copilot serving 2000+ companies in supply chain and logistics. Established AI strategy, infrastructure, and team from scratch. Background spans research \(PhD in data science focusing on ML applications in logistics\), academia, and industry. Focus on building reliable AI systems that support critical business processes, combining technical implementation with cross-functional leadership.]
 )
 
 
@@ -487,7 +485,7 @@
     #set par(spacing: 0pt)
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Machine Learning applications in logistics network optimization and sustainable transportation systems])], column-gutter: 0cm)
 
-  #v(design-highlights-top-margin);#highlights([Developed novel machine learning models for road network performance prediction and optimization],[Published multiple peer-reviewed papers on sustainable city evaluation],[Led research initiatives in sustainable logistics and network performance optimization],)
+  #v(design-highlights-top-margin);#highlights([Developed machine learning models for road network performance prediction and optimization],[Published peer-reviewed papers on sustainable city evaluation],[Research on sustainable logistics and network performance optimization],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -546,17 +544,34 @@
 
 #two-col-entry(
   left-content: [
-    #strong[Principal Data Scientist], Lobster -- Tutzing, DE
+    #strong[Principal AI Engineer], Lobster -- Tutzing, DE
   ],
   right-content: [
-    June 2024 – present
+    Mar 2025 – present
   ],
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Spearheading data & AI strategy for enterprise data integration and process automation solutions])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Leading development of Pathfinder, an AI copilot for enterprise EDI and data integration platform coordinating data across global supply chains. Building and scaling agentic AI infrastructure and Team Caprica to support production systems serving companies including HARIBO, Hermes, HP, Coop, Lindt & Sprüngli, and Logwin.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed and implementing company-wide Vertical AI Strategy, aligning technology initiatives with business objectives],[Leading end-to-end development of mission-critical AI initiatives, directly reporting to CTO and CPO],[Developing AI-powered automation solutions including technical documentation generation \(SALMON\) and intelligent mapping systems \(MAPS\)],[Architected classification system \(CREW\) achieving 74\% F1 score and in-memory retrieval system \(SPLASH\)],[Establishing API-first centralized knowledge management system \(BRAIN\) for unified documentation and knowledge access],[Orchestrating collaboration between Data Center Cloud IT, Support, and Engineering teams],[Representing Lobster's AI initiatives at industry conferences and technical forums, including speaking engagements on enterprise AI implementation],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Built Pathfinder from architecture to production deployment, serving 2000+ companies in supply chain and logistics with context-aware assistance for EDI workflows and data orchestration],[Designed and implemented scalable agentic AI microservice infrastructure using LangGraph, pydantic\_ai, DSPy, MCP, and Google's A2A protocol for composable multi-agent systems],[Built and mentor Team Caprica, recruiting 3 AI Engineers through full technical interview and assessment process],[Delivered keynote \"From Data to Intelligence - The Future of Supply Chains\" at Lobster Data Hero Summit with AWS Head of Technology and AI startup leaders],[Built internal automation including HubSpot data enrichment pipeline and chatbot replacement, reducing manual effort and improving response quality],[Coordinate with stakeholders across business units including CTO and CPO, leading AI enablement and participating in Engineering Management],[Published articles on agentic AI and data integration for Illuminaire, TechRadar, Supply Chain Strategy, and DIGITALE WELT],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Principal Data Scientist], Lobster -- Tutzing, DE
+  ],
+  right-content: [
+    May 2024 – Feb 2025
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Joined as first AI practitioner to establish AI strategy and technical foundation. Researched and defined approach for enterprise AI implementation.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed company-wide AI strategy from scratch, working with C-Level to define vision and align initiatives with business objectives],[Researched and evaluated AI frameworks, tools, and infrastructure to establish technical foundation for production systems],[Designed initial AI solutions including automated technical documentation generation, intelligent data mapping systems, classification models, and semantic knowledge retrieval],[Established architecture for API-first knowledge management system enabling unified documentation access],[Built collaboration framework between Data Center Cloud IT, Support, and Engineering teams for AI integration],[Represented AI initiatives at industry conferences and technical forums],)
   ],
 )
 
@@ -573,24 +588,24 @@
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Teaching fundamentals of programming and AI to Digital Business Management students])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developing practical curriculum combining Python programming and AI fundamentals],[Bridging business management and technology through industry-relevant instruction],[Fostering data-driven decision making and problem-solving skills],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed practical curriculum combining Python programming and AI fundamentals],[Teaching business management students technical skills for data-driven decision making],[Focus on industry-relevant applications and problem-solving approaches],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Digital Solutions Manager], logistics cloud -- Tutzing, DE
+    #strong[Digital Solutions Manager], Lobster Logistics Cloud -- Tutzing, DE
   ],
   right-content: [
-    Oct 2023 – June 2024
+    Oct 2023 – May 2024
   ],
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Led digital transformation for cloud-based logistics platform serving major European transportation providers])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Built Customer Success function for managed EDI and collaboration network \(Lobster subsidiary, now Lobster Data Network\). Managed custom integration projects and consulted on backend architecture improvements.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed platform connecting shippers, forwarders, carriers, and customs],[Implemented IoT tracking and blockchain services for supply chain transparency],[Established marketplace for predictive analytics and compliance services],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Built Customer Success team from scratch, recruiting and training 5 team members before transitioning to Principal Data Scientist role],[Managed custom integration projects for logistics providers within managed service network built on Lobster ecosystem],[Internal consulting with tech lead on backend architecture to support growing customer requirements],[Sales engineering and technical consulting for platform capabilities, working with shippers, forwarders, carriers, and customs agencies],[Supported platform connecting IoT tracking, blockchain services, and predictive analytics for supply chain transparency],)
   ],
 )
 
@@ -620,7 +635,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Developed freight tariffs for six prominent German Transportation Service Providers],[Collaborated with Prof. Dr. Andreas Otto on logistics optimization projects],)
+    #v(design-highlights-top-margin);#highlights([Developed freight tariffs for six German Transportation Service Providers],[Worked with Prof. Dr. Andreas Otto on logistics optimization projects],)
   ],
 )
 
@@ -635,7 +650,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Developed award-winning RESET App for student self-regulation],[Collaborated with medical professionals on behavioral intervention strategies],[Led full-stack development including ML model integration],)
+    #v(design-highlights-top-margin);#highlights([Developed RESET App for student self-regulation],[Worked with medical professionals on behavioral intervention strategies],[Full-stack development including ML model integration],)
   ],
 )
 
@@ -650,7 +665,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Led research in ML applications for logistics network optimization],[Supervised 50+ theses in Supply Chain Management and AI],[Developed predictive models for transportation networks],[Integrated data science approaches into logistics research],)
+    #v(design-highlights-top-margin);#highlights([Research on ML applications for logistics network optimization],[Supervised 50+ theses in Supply Chain Management and AI],[Developed predictive models for transportation networks],[Applied data science approaches to logistics research],)
   ],
 )
 
@@ -677,15 +692,15 @@
 
 
 #one-col-entry(
-  content: [#strong[AI Leadership:] AI Strategy Development, Enterprise AI Architecture, Cross-functional Team Leadership, AI Education & Mentorship]
+  content: [#strong[AI Leadership:] AI Strategy Development, Enterprise AI Architecture, Team Building & Mentorship, Stakeholder Management, Technical Vision]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[AI\/ML Expertise:] Large Language Models, Computer Vision, Agentic AI, Multi-Agent Systems, Neural Networks \(ResNet, Transformers\), Machine Learning, MLOps]
+  content: [#strong[AI\/ML Expertise:] Agentic AI Systems, Large Language Models, Multi-Agent Systems, Computer Vision, Neural Networks \(ResNet, Transformers\), Machine Learning, MLOps]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Technical Infrastructure:] AWS \(SageMaker, Bedrock, Lambda, Fargate\), Cloud Architecture, Distributed Systems]
+  content: [#strong[Technical Infrastructure:] AWS \(SageMaker, Bedrock, Lambda, Fargate\), Cloud Architecture, Microservices, Distributed Systems]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -693,16 +708,129 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Tools & Frameworks:] PyTorch, LangChain, Hugging Face Transformers, BAML, Pydantic-AI, Docker, FastAPI, MLflow, Weights & Biases, Metaflow, Ray, Streamlit, Gradio]
+  content: [#strong[AI Frameworks & Tools:] LangGraph, pydantic\_ai, DSPy, LangChain, PyTorch, Hugging Face Transformers, BAML, FastAPI, Docker]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[AI Protocols & Standards:] Model Context Protocol \(MCP\), Agent-to-Agent Protocol \(A2A\), API Design]
 )
 
 
-== Publications & Books
+== Articles & Media
 
 
 #two-col-entry(
   left-content: [
-    #strong[Road Network Performance Measurements \(Book\)]
+    #strong[Why agentic AI will not replace your team, it might help you grow it]
+
+  ],
+  right-content: [
+    Aug 2025
+  ],
+)
+#one-col-entry(content:[
+#v(design-highlights-top-margin);#strong[#emph[Jan Kunkler]]
+
+#v(design-highlights-top-margin - design-text-leading)#link("https://illuminaire.io/why-agentic-ai-will-not-replace-your-team-it-might-help-you-grow-it/")[illuminaire.io/why-agentic-ai-will-not-replace-your-team-it-might-help-you-grow-it] (Illuminaire)])
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Agentische KI als Treiber der Personalentwicklung und individuellen Performance]
+
+  ],
+  right-content: [
+    July 2025
+  ],
+)
+#one-col-entry(content:[
+#v(design-highlights-top-margin);#strong[#emph[Jan Kunkler]]
+
+#v(design-highlights-top-margin - design-text-leading)#link("https://digitaleweltmagazin.de/agentische-ki-als-treiber-der-personalentwicklung-und-individuellen-performance/")[digitaleweltmagazin.de/agentische-ki-als-treiber-der-personalentwicklung-und-individuellen-performance] (DIGITALE WELT Magazin)])
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Beyond algorithms: Agentic AI and the behavioral data scientist]
+
+  ],
+  right-content: [
+    June 2025
+  ],
+)
+#one-col-entry(content:[
+#v(design-highlights-top-margin);#strong[#emph[Jan Kunkler]]
+
+#v(design-highlights-top-margin - design-text-leading)#link("https://www.techradar.com/pro/beyond-algorithms-agentic-ai-and-the-behavioral-data-scientist")[www.techradar.com/pro/beyond-algorithms-agentic-ai-and-the-behavioral-data-scientist] (TechRadar)])
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[The agent-driven supply chain: rethinking logistics with collaborative AI]
+
+  ],
+  right-content: [
+    June 2025
+  ],
+)
+#one-col-entry(content:[
+#v(design-highlights-top-margin);#strong[#emph[Jan Kunkler]]
+
+#v(design-highlights-top-margin - design-text-leading)#link("https://supplychainstrategy.media/blog/2025/06/06/the-agent-driven-supply-chain-rethinking-logistics-with-collaborative-ai/")[supplychainstrategy.media/blog/2025/06/06/the-agent-driven-supply-chain-rethinking-logistics-with-collaborative-ai] (Supply Chain Strategy)])
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[From Data to Intelligence - The Future of Supply Chains]
+
+  ],
+  right-content: [
+    May 2025
+  ],
+)
+#one-col-entry(content:[
+#v(design-highlights-top-margin);#strong[#emph[Jan Kunkler]]
+
+#v(design-highlights-top-margin - design-text-leading)#link("https://www.youtube.com/watch?v=C6HI1xjnL0Y&list=PLOy4YubRIzq9Vwc1LHVj29xgOdEOteqK6&index=2")[www.youtube.com/watch?v=C6HI1xjnL0Y&list=PLOy4YubRIzq9Vwc1LHVj29xgOdEOteqK6&index=2] (Lobster Data Hero Summit \(Keynote\))])
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Roll call: How agentic AI is growing headcount and enabling employee success]
+
+  ],
+  right-content: [
+    Apr 2025
+  ],
+)
+#one-col-entry(content:[
+#v(design-highlights-top-margin);#strong[#emph[Jan Kunkler]]
+
+#v(design-highlights-top-margin - design-text-leading)#link("https://aijourn.com/roll-call-how-agentic-ai-is-growing-headcount-and-enabling-employee-success/")[aijourn.com/roll-call-how-agentic-ai-is-growing-headcount-and-enabling-employee-success] (The AI Journal)])
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Die Rolle von Agentic AI in der Unternehmens-IT der Zukunft]
+
+  ],
+  right-content: [
+    Apr 2025
+  ],
+)
+#one-col-entry(content:[
+#v(design-highlights-top-margin);#strong[#emph[Jan Kunkler]]
+
+#v(design-highlights-top-margin - design-text-leading)#link("https://www.bigdata-insider.de/die-rolle-von-agentic-ai-in-der-unternehmens-it-der-zukunft-a-d376e9d58a00b81050ebcc0a16da6ad2/")[www.bigdata-insider.de/die-rolle-von-agentic-ai-in-der-unternehmens-it-der-zukunft-a-d376e9d58a00b81050ebcc0a16da6ad2] (BigData-Insider)])
+
+
+
+== Books
+
+
+#two-col-entry(
+  left-content: [
+    #strong[Road Network Performance Measurements]
 
   ],
   right-content: [
@@ -714,7 +842,11 @@
 
 #v(design-highlights-top-margin - design-text-leading)#link("https://doi.org/10.5283/EPUB.53802")[10.5283/EPUB.53802]])
 
-#v(design-entries-vertical-space-between-entries)
+
+
+== Peer-reviewed Publications
+
+
 #two-col-entry(
   left-content: [
     #strong[Sustainable City Evaluation Using the Database for Estimation of Road Network Performance]

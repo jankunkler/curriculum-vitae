@@ -1,17 +1,17 @@
 cv:
   name: Dr. Jan Kunkler
-  location: Regensburg, Germany
+  location: Straubing, Germany
   email: mail@jankunkler.de
   phone: "+49016095131829"
-  website: https://www.jankunkler.de
+  # website: https://www.jankunkler.de  # Commented out - add back when website is live
   social_networks:
     - network: LinkedIn
       username: jankunkler
-    - network: GitHub
-      username: jankunkler
+    # - network: GitHub  # Commented out - not representative (working on internal repos)
+    #   username: jankunkler
   sections:
     summary:
-      - AI leader and Principal Data Scientist with extensive experience in enterprise AI innovation and implementation across multiple domains. Currently driving Vertical AI initiatives, developing cutting-edge solutions in GenAI, computer vision, and intelligence orchestration. Ten-year journey in AI/ML includes successful implementations of production-ready AI systems, combining deep technical expertise with strong business acumen. Active educator and mentor in AI, with a PhD in data science and proven track record of translating research into scalable industry solutions.
+      - Principal AI Engineer building production agentic AI systems for enterprise data integration and EDI. Leading development of Pathfinder AI copilot serving 2000+ companies in supply chain and logistics. Established AI strategy, infrastructure, and team from scratch. Background spans research (PhD in data science focusing on ML applications in logistics), academia, and industry. Focus on building reliable AI systems that support critical business processes, combining technical implementation with cross-functional leadership.
 
     education:
       - institution: University of Regensburg
@@ -23,9 +23,9 @@ cv:
         location: Regensburg, DE
         summary: Machine Learning applications in logistics network optimization and sustainable transportation systems
         highlights:
-          - Developed novel machine learning models for road network performance prediction and optimization
-          - Published multiple peer-reviewed papers on sustainable city evaluation
-          - Led research initiatives in sustainable logistics and network performance optimization
+          - Developed machine learning models for road network performance prediction and optimization
+          - Published peer-reviewed papers on sustainable city evaluation
+          - Research on sustainable logistics and network performance optimization
 
       - institution: University of Regensburg
         area: Supply Chain Management
@@ -51,20 +51,35 @@ cv:
 
     experience:
       - company: Lobster
-        position: Principal Data Scientist
+        position: Principal AI Engineer
         date:
-        start_date: 2024-06
+        start_date: 2025-03
         end_date: present
         location: Tutzing, DE
-        summary: Spearheading data & AI strategy for enterprise data integration and process automation solutions
+        summary: Leading development of Pathfinder, an AI copilot for enterprise EDI and data integration platform coordinating data across global supply chains. Building and scaling agentic AI infrastructure and Team Caprica to support production systems serving companies including HARIBO, Hermes, HP, Coop, Lindt & Sprüngli, and Logwin.
         highlights:
-          - Developed and implementing company-wide Vertical AI Strategy, aligning technology initiatives with business objectives
-          - Leading end-to-end development of mission-critical AI initiatives, directly reporting to CTO and CPO
-          - Developing AI-powered automation solutions including technical documentation generation (SALMON) and intelligent mapping systems (MAPS)
-          - Architected classification system (CREW) achieving 74% F1 score and in-memory retrieval system (SPLASH)
-          - Establishing API-first centralized knowledge management system (BRAIN) for unified documentation and knowledge access
-          - Orchestrating collaboration between Data Center Cloud IT, Support, and Engineering teams
-          - Representing Lobster's AI initiatives at industry conferences and technical forums, including speaking engagements on enterprise AI implementation
+          - Built Pathfinder from architecture to production deployment, serving 2000+ companies in supply chain and logistics with context-aware assistance for EDI workflows and data orchestration
+          - Designed and implemented scalable agentic AI microservice infrastructure using LangGraph, pydantic_ai, DSPy, MCP, and Google's A2A protocol for composable multi-agent systems
+          - Built and mentor Team Caprica, recruiting 3 AI Engineers through full technical interview and assessment process
+          - Delivered keynote "From Data to Intelligence - The Future of Supply Chains" at Lobster Data Hero Summit with AWS Head of Technology and AI startup leaders
+          - Built internal automation including HubSpot data enrichment pipeline and chatbot replacement, reducing manual effort and improving response quality
+          - Coordinate with stakeholders across business units including CTO and CPO, leading AI enablement and participating in Engineering Management
+          - Published articles on agentic AI and data integration for Illuminaire, TechRadar, Supply Chain Strategy, and DIGITALE WELT
+
+      - company: Lobster
+        position: Principal Data Scientist
+        date:
+        start_date: 2024-05
+        end_date: 2025-02
+        location: Tutzing, DE
+        summary: Joined as first AI practitioner to establish AI strategy and technical foundation. Researched and defined approach for enterprise AI implementation.
+        highlights:
+          - Developed company-wide AI strategy from scratch, working with C-Level to define vision and align initiatives with business objectives
+          - Researched and evaluated AI frameworks, tools, and infrastructure to establish technical foundation for production systems
+          - Designed initial AI solutions including automated technical documentation generation, intelligent data mapping systems, classification models, and semantic knowledge retrieval
+          - Established architecture for API-first knowledge management system enabling unified documentation access
+          - Built collaboration framework between Data Center Cloud IT, Support, and Engineering teams for AI integration
+          - Represented AI initiatives at industry conferences and technical forums
 
       - company: OTH Regensburg
         position: Visiting Lecturer
@@ -74,21 +89,23 @@ cv:
         location: Regensburg, DE
         summary: Teaching fundamentals of programming and AI to Digital Business Management students
         highlights:
-          - Developing practical curriculum combining Python programming and AI fundamentals
-          - Bridging business management and technology through industry-relevant instruction
-          - Fostering data-driven decision making and problem-solving skills
+          - Developed practical curriculum combining Python programming and AI fundamentals
+          - Teaching business management students technical skills for data-driven decision making
+          - Focus on industry-relevant applications and problem-solving approaches
 
-      - company: logistics cloud
+      - company: Lobster Logistics Cloud
         position: Digital Solutions Manager
         date:
         start_date: 2023-10
-        end_date: 2024-06
+        end_date: 2024-05
         location: Tutzing, DE
-        summary: Led digital transformation for cloud-based logistics platform serving major European transportation providers
+        summary: Built Customer Success function for managed EDI and collaboration network (Lobster subsidiary, now Lobster Data Network). Managed custom integration projects and consulted on backend architecture improvements.
         highlights:
-          - Developed platform connecting shippers, forwarders, carriers, and customs
-          - Implemented IoT tracking and blockchain services for supply chain transparency
-          - Established marketplace for predictive analytics and compliance services
+          - Built Customer Success team from scratch, recruiting and training 5 team members before transitioning to Principal Data Scientist role
+          - Managed custom integration projects for logistics providers within managed service network built on Lobster ecosystem
+          - Internal consulting with tech lead on backend architecture to support growing customer requirements
+          - Sales engineering and technical consulting for platform capabilities, working with shippers, forwarders, carriers, and customs agencies
+          - Supported platform connecting IoT tracking, blockchain services, and predictive analytics for supply chain transparency
 
       - company: University of Regensburg
         position: Postdoctoral Research Associate
@@ -109,8 +126,8 @@ cv:
         end_date: 2023-10
         location: Regensburg, DE
         highlights:
-          - Developed freight tariffs for six prominent German Transportation Service Providers
-          - Collaborated with Prof. Dr. Andreas Otto on logistics optimization projects
+          - Developed freight tariffs for six German Transportation Service Providers
+          - Worked with Prof. Dr. Andreas Otto on logistics optimization projects
 
       - company: Braun & Kunkler GbR
         position: Co-Founder & Technical Lead
@@ -119,9 +136,9 @@ cv:
         end_date: 2022-04
         location: Burglengenfeld, DE
         highlights:
-          - Developed award-winning RESET App for student self-regulation
-          - Collaborated with medical professionals on behavioral intervention strategies
-          - Led full-stack development including ML model integration
+          - Developed RESET App for student self-regulation
+          - Worked with medical professionals on behavioral intervention strategies
+          - Full-stack development including ML model integration
 
       - company: University of Regensburg
         position: Research Fellow
@@ -130,10 +147,10 @@ cv:
         end_date: 2023-03
         location: Regensburg, DE
         highlights:
-          - Led research in ML applications for logistics network optimization
+          - Research on ML applications for logistics network optimization
           - Supervised 50+ theses in Supply Chain Management and AI
           - Developed predictive models for transportation networks
-          - Integrated data science approaches into logistics research
+          - Applied data science approaches to logistics research
 
       - company: Early Career Experience
         position: Various Positions
@@ -148,26 +165,75 @@ cv:
 
     skills:
       - label: AI Leadership
-        details: AI Strategy Development, Enterprise AI Architecture, Cross-functional Team Leadership, AI Education & Mentorship
+        details: AI Strategy Development, Enterprise AI Architecture, Team Building & Mentorship, Stakeholder Management, Technical Vision
 
       - label: AI/ML Expertise
-        details: Large Language Models, Computer Vision, Agentic AI, Multi-Agent Systems, Neural Networks (ResNet, Transformers), Machine Learning, MLOps
+        details: Agentic AI Systems, Large Language Models, Multi-Agent Systems, Computer Vision, Neural Networks (ResNet, Transformers), Machine Learning, MLOps
 
       - label: Technical Infrastructure
-        details: AWS (SageMaker, Bedrock, Lambda, Fargate), Cloud Architecture, Distributed Systems
+        details: AWS (SageMaker, Bedrock, Lambda, Fargate), Cloud Architecture, Microservices, Distributed Systems
 
       - label: Data Engineering
         details: Knowledge Graphs, ETL Pipeline Design, Python, SQL, R, Go
 
-      - label: Tools & Frameworks
-        details: PyTorch, LangChain, Hugging Face Transformers, BAML, Pydantic-AI, Docker, FastAPI, MLflow, Weights & Biases, Metaflow, Ray, Streamlit, Gradio
+      - label: AI Frameworks & Tools
+        details: LangGraph, pydantic_ai, DSPy, LangChain, PyTorch, Hugging Face Transformers, BAML, FastAPI, Docker
 
-    publications & books:
-      - title: "Road Network Performance Measurements (Book)"
+      - label: AI Protocols & Standards
+        details: Model Context Protocol (MCP), Agent-to-Agent Protocol (A2A), API Design
+
+    articles & media:
+      - title: "Why agentic AI will not replace your team, it might help you grow it"
+        authors:
+          - "***Jan Kunkler***"
+        date: 2025-08
+        url: https://illuminaire.io/why-agentic-ai-will-not-replace-your-team-it-might-help-you-grow-it/
+        journal: Illuminaire
+      - title: "Agentische KI als Treiber der Personalentwicklung und individuellen Performance"
+        authors:
+          - "***Jan Kunkler***"
+        date: 2025-07
+        url: https://digitaleweltmagazin.de/agentische-ki-als-treiber-der-personalentwicklung-und-individuellen-performance/
+        journal: DIGITALE WELT Magazin
+      - title: "Beyond algorithms: Agentic AI and the behavioral data scientist"
+        authors:
+          - "***Jan Kunkler***"
+        date: 2025-06
+        url: https://www.techradar.com/pro/beyond-algorithms-agentic-ai-and-the-behavioral-data-scientist
+        journal: TechRadar
+      - title: "The agent-driven supply chain: rethinking logistics with collaborative AI"
+        authors:
+          - "***Jan Kunkler***"
+        date: 2025-06
+        url: https://supplychainstrategy.media/blog/2025/06/06/the-agent-driven-supply-chain-rethinking-logistics-with-collaborative-ai/
+        journal: Supply Chain Strategy
+      - title: "From Data to Intelligence - The Future of Supply Chains"
+        authors:
+          - "***Jan Kunkler***"
+        date: 2025-05
+        url: https://www.youtube.com/watch?v=C6HI1xjnL0Y&list=PLOy4YubRIzq9Vwc1LHVj29xgOdEOteqK6&index=2
+        journal: Lobster Data Hero Summit (Keynote)
+      - title: "Roll call: How agentic AI is growing headcount and enabling employee success"
+        authors:
+          - "***Jan Kunkler***"
+        date: 2025-04
+        url: https://aijourn.com/roll-call-how-agentic-ai-is-growing-headcount-and-enabling-employee-success/
+        journal: The AI Journal
+      - title: "Die Rolle von Agentic AI in der Unternehmens-IT der Zukunft"
+        authors:
+          - "***Jan Kunkler***"
+        date: 2025-04
+        url: https://www.bigdata-insider.de/die-rolle-von-agentic-ai-in-der-unternehmens-it-der-zukunft-a-d376e9d58a00b81050ebcc0a16da6ad2/
+        journal: BigData-Insider
+
+    books:
+      - title: "Road Network Performance Measurements"
         authors:
           - "***Jan Kunkler***"
         doi: 10.5283/EPUB.53802
         date: 2023-03
+
+    peer-reviewed publications:
       - title: Sustainable City Evaluation Using the Database for Estimation of Road Network Performance
         authors:
           - "***Jan Kunkler***"
@@ -329,6 +395,6 @@ locale:
     - December
 
 rendercv_settings:
-  date: "2025-02-21"
+  date: "2025-11-01"
   render_command:
   bold_keywords: []

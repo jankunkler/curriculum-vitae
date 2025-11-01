@@ -466,7 +466,7 @@
 
 
 #one-col-entry(
-  content: [AI leader and Principal Data Scientist specializing in enterprise AI strategy and implementation. Currently driving Vertical AI initiatives at Lobster, developing innovative solutions in GenAI, knowledge management, and intelligence orchestration. Combines technical expertise in machine learning with business acumen to deliver practical AI solutions. Active educator in AI and programming, with a PhD in data science and proven track record of bridging research and industry applications.]
+  content: [AI leader and Principal Data Scientist with extensive experience in enterprise AI innovation and implementation across multiple domains. Currently driving Vertical AI initiatives, developing cutting-edge solutions in GenAI, computer vision, and intelligence orchestration. Ten-year journey in AI\/ML includes successful implementations of production-ready AI systems, combining deep technical expertise with strong business acumen. Active educator and mentor in AI, with a PhD in data science and proven track record of translating research into scalable industry solutions.]
 )
 
 
@@ -509,6 +509,8 @@
   [
     #set par(spacing: 0pt)
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Specialized in data-driven decision making and quantitative methods for supply chain optimization])], column-gutter: 0cm)
+
+  #v(design-highlights-top-margin);#highlights([Master Thesis: Developed ResNet-based computer vision system analyzing satellite imagery for logistics performance prediction],[Built end-to-end ML pipeline for estimating delivery times based on infrastructure analysis],[Combined computer vision with logistics domain knowledge to enhance shipment planning],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -554,7 +556,7 @@
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Spearheading data & AI strategy for enterprise data integration and process automation solutions])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed and implementing company-wide Vertical AI Strategy, aligning technology initiatives with business objectives],[Leading end-to-end development of mission-critical AI initiatives, directly reporting to CTO and CPO],[Developing AI-powered automation solutions including technical documentation generation \(SALMON\) and intelligent mapping systems \(MAPS\)],[Architected classification system \(CREW\) achieving 74\% F1 score and in-memory retrieval system \(SPLASH\)],[Establishing API-first centralized knowledge management system \(BRAIN\) for unified documentation and knowledge access],[Orchestrating collaboration between Data Center Cloud IT, Support, and Engineering teams],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed and implementing company-wide Vertical AI Strategy, aligning technology initiatives with business objectives],[Leading end-to-end development of mission-critical AI initiatives, directly reporting to CTO and CPO],[Developing AI-powered automation solutions including technical documentation generation \(SALMON\) and intelligent mapping systems \(MAPS\)],[Architected classification system \(CREW\) achieving 74\% F1 score and in-memory retrieval system \(SPLASH\)],[Establishing API-first centralized knowledge management system \(BRAIN\) for unified documentation and knowledge access],[Orchestrating collaboration between Data Center Cloud IT, Support, and Engineering teams],[Representing Lobster's AI initiatives at industry conferences and technical forums, including speaking engagements on enterprise AI implementation],)
   ],
 )
 
@@ -679,7 +681,7 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[AI\/ML Expertise:] Large Language Models, Agentic AI, Multi-Agent Systems, Neural Networks, Machine Learning, MLOps]
+  content: [#strong[AI\/ML Expertise:] Large Language Models, Computer Vision, Agentic AI, Multi-Agent Systems, Neural Networks \(ResNet, Transformers\), Machine Learning, MLOps]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(

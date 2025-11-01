@@ -10,7 +10,7 @@
 
 # Summary
 
-AI leader and Principal Data Scientist specializing in enterprise AI strategy and implementation. Currently driving Vertical AI initiatives at Lobster, developing innovative solutions in GenAI, knowledge management, and intelligence orchestration. Combines technical expertise in machine learning with business acumen to deliver practical AI solutions. Active educator in AI and programming, with a PhD in data science and proven track record of bridging research and industry applications.
+AI leader and Principal Data Scientist with extensive experience in enterprise AI innovation and implementation across multiple domains. Currently driving Vertical AI initiatives, developing cutting-edge solutions in GenAI, computer vision, and intelligence orchestration. Ten-year journey in AI/ML includes successful implementations of production-ready AI systems, combining deep technical expertise with strong business acumen. Active educator and mentor in AI, with a PhD in data science and proven track record of translating research into scalable industry solutions.
 
 # Education
 
@@ -26,6 +26,9 @@ AI leader and Principal Data Scientist specializing in enterprise AI strategy an
 
 - Sept 2017 – June 2019
 - Regensburg, DE
+- Master Thesis: Developed ResNet-based computer vision system analyzing satellite imagery for logistics performance prediction
+- Built end-to-end ML pipeline for estimating delivery times based on infrastructure analysis
+- Combined computer vision with logistics domain knowledge to enhance shipment planning
 
 ## Universität Trier, BSc in Business Administration
 
@@ -44,6 +47,7 @@ AI leader and Principal Data Scientist specializing in enterprise AI strategy an
 - Architected classification system (CREW) achieving 74% F1 score and in-memory retrieval system (SPLASH)
 - Establishing API-first centralized knowledge management system (BRAIN) for unified documentation and knowledge access
 - Orchestrating collaboration between Data Center Cloud IT, Support, and Engineering teams
+- Representing Lobster's AI initiatives at industry conferences and technical forums, including speaking engagements on enterprise AI implementation
 
 ## OTH Regensburg, Visiting Lecturer
 
@@ -104,7 +108,7 @@ AI leader and Principal Data Scientist specializing in enterprise AI strategy an
 # Skills
 
 - AI Leadership: AI Strategy Development, Enterprise AI Architecture, Cross-functional Team Leadership, AI Education & Mentorship
-- AI/ML Expertise: Large Language Models, Agentic AI, Multi-Agent Systems, Neural Networks, Machine Learning, MLOps
+- AI/ML Expertise: Large Language Models, Computer Vision, Agentic AI, Multi-Agent Systems, Neural Networks (ResNet, Transformers), Machine Learning, MLOps
 - Technical Infrastructure: AWS (SageMaker, Bedrock, Lambda, Fargate), Cloud Architecture, Distributed Systems
 - Data Engineering: Knowledge Graphs, ETL Pipeline Design, Python, SQL, R, Go
 - Tools & Frameworks: PyTorch, LangChain, Hugging Face Transformers, BAML, Pydantic-AI, Docker, FastAPI, MLflow, Weights & Biases, Metaflow, Ray, Streamlit, Gradio

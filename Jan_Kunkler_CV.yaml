@@ -314,9 +314,9 @@ design:
     show_time_spans_in: []
   highlights:
     bullet: •
-    top_margin: 0.25cm
+    top_margin: 0.3cm
     left_margin: 0cm
-    vertical_space_between_highlights: 0.19cm
+    vertical_space_between_highlights: 0.25cm
     horizontal_space_between_bullet_and_highlight: 0.3em
     summary_left_margin: 0cm
   entry_types:

@@ -11,7 +11,93 @@ cv:
     #   username: jankunkler
   sections:
     summary:
-      - Principal AI Engineer building production agentic AI systems for enterprise data integration and EDI. Leading development of Pathfinder AI copilot serving 2000+ companies in supply chain and logistics. Established AI strategy, infrastructure, and team from scratch. Background spans research (PhD in data science focusing on ML applications in logistics), academia, and industry. Focus on building reliable AI systems that support critical business processes, combining technical implementation with cross-functional leadership.
+      - "Builder and leader for 0-to-1 applied AI products in supply chain and logistics, at the intersection of business and technology. Took two AI products from idea to customers at Lobster: Pathfinder (in production) and UDP (in design-partner rollout). Owned the full span, from strategy, requirements, design drafts and customer discussions to architecture and full-stack engineering, then enabled a team to take the work over. Start from what the technology can actually do, beneath the headlines, and use supply chain domain knowledge to decide where AI creates value. Lead through empowerment and inspiration, not hierarchy; grew Lobster's AI team from zero to seven. Business and supply chain education, PhD in data science applied to logistics; author of Agentic AI (Springer Vieweg, December 2026)."
+
+    experience:
+      - company: Lobster
+        position: Principal AI Engineer & Engineering Manager
+        date:
+        start_date: 2025-03
+        end_date: present
+        location: Tutzing, DE
+        summary: "Dual role: built and led Team Caprica, Lobster's AI engineering team, while owning AI strategy, architecture and technical roadmap."
+        highlights:
+          - "**Pathfinder:** architected from scratch an agentic AI copilot running in production as cloud-native microservices on AWS, integrated into the Lobster Data Platform and serving 2000+ companies (incl. HARIBO, Hermes, HP, Coop, Lindt & Sprüngli, Logwin)"
+          - "**Pathfinder security:** defined goal, architecture and security concept of the MCP gateway, a federated proxy that gives Pathfinder access to only specific tools of individual customer instances, cloud or on-prem; coordinated its implementation with the platform team. Pathfinder acts strictly with the user's permissions and writes only after explicit confirmation"
+          - "**Pathfinder features:** Automapping (project MAPS), AI-generated mappings between message formats such as EDIFACT and IDoc, delivered in 2.5 months against an estimate of 6–12 months. Orchestration that creates integration jobs, portals and custom type definitions from what users describe, turning weeks of configuration into minutes of review for low-tech and no-tech customers. Shaped the UX with the design team"
+          - "**UDP:** built a service for extracting structured data from business documents from scratch in 3 months against an estimate of 9–12 months. Sole full-stack engineer, from backend to Angular frontend, directing AI coding agents while owning architecture, code review and coordination with infrastructure, legal and other teams"
+          - "**UDP go-to-market:** led the design-partner program (customer selection, pain-point discovery, workshops, demos), taking UDP to its first design-partner go-live. Covered product management, design and engineering management; onboarded engineers to take it over"
+          - "**Team:** grew the AI function from one person to a team of seven; defined team charter, career levels and Senior/Staff AI Engineer tracks; designed the hiring process"
+          - "**Strategy:** shaped the AI narrative for the board with the CTO, including much of the slide material now used company-wide, backed by data on cost and quality of strategic options; owned the AI technical roadmap"
+          - "**M&A:** led technical due diligence on potential partners and acquisition targets in supply chain AI, reviewing technical setup, architecture, code and roadmap"
+          - "**Semantic layer:** designed the ontology-based semantic layer (RDF/OWL, SHACL) for cross-format data integration; partially built and a core part of the product strategy for supply chain intelligence"
+
+      - company: Lobster
+        position: Principal Data Scientist
+        date:
+        start_date: 2024-05
+        end_date: 2025-02
+        location: Tutzing, DE
+        summary: First AI practitioner at Lobster.
+        highlights:
+          - Developed the company-wide AI strategy with C-level management
+          - Evaluated frameworks, models and infrastructure and set the technical foundation for production AI
+          - Built initial POCs for documentation generation, data mapping, classification and semantic knowledge retrieval
+
+      - company: OTH Regensburg
+        position: Visiting Lecturer
+        date:
+        start_date: 2024-10
+        end_date: present
+        location: Regensburg, DE
+        summary: Programming and AI fundamentals for Digital Business Management students.
+
+      - company: Lobster Logistics Cloud
+        position: Digital Solutions Manager
+        date:
+        start_date: 2023-10
+        end_date: 2024-05
+        location: Tutzing, DE
+        summary: Managed EDI and collaboration network (Lobster subsidiary, now Lobster Data Network).
+        highlights:
+          - Built the Customer Success team from scratch (5 people)
+          - Managed custom integration projects for shippers, forwarders, carriers and customs agencies; sales engineering and backend architecture consulting
+
+      - company: University of Regensburg
+        position: Postdoctoral Research Associate
+        date:
+        start_date: 2023-03
+        end_date: 2023-09
+        location: Regensburg, DE
+        highlights:
+          - Interim Chair for Controlling and Logistics; led M.Sc./B.Sc. programs with 250+ students
+
+      - company: Freelance
+        position: Data Science Consultant
+        date:
+        start_date: 2021-01
+        end_date: 2023-10
+        location: Regensburg, DE
+        highlights:
+          - Freight tariff development for six German transportation service providers
+
+      - company: Braun & Kunkler GbR
+        position: Co-Founder & Technical Lead
+        date:
+        start_date: 2020-01
+        end_date: 2022-04
+        location: Burglengenfeld, DE
+        highlights:
+          - Built the RESET app for student self-regulation, including ML model integration
+
+      - company: University of Regensburg
+        position: Research Fellow
+        date:
+        start_date: 2019-09
+        end_date: 2023-03
+        location: Regensburg, DE
+        highlights:
+          - ML for logistics network optimization; supervised 50+ theses in Supply Chain Management and AI
 
     education:
       - institution: University of Regensburg
@@ -21,11 +107,7 @@ cv:
         start_date: 2020-06
         end_date: 2023-02
         location: Regensburg, DE
-        summary: Machine Learning applications in logistics network optimization and sustainable transportation systems
-        highlights:
-          - Developed machine learning models for road network performance prediction and optimization
-          - Published peer-reviewed papers on sustainable city evaluation
-          - Research on sustainable logistics and network performance optimization
+        summary: Machine learning for road network performance prediction and sustainable transportation
 
       - institution: University of Regensburg
         area: Supply Chain Management
@@ -34,11 +116,7 @@ cv:
         start_date: 2017-09
         end_date: 2019-06
         location: Regensburg, DE
-        summary: Specialized in data-driven decision making and quantitative methods for supply chain optimization
-        highlights:
-          - "Master Thesis: Developed ResNet-based computer vision system analyzing satellite imagery for logistics performance prediction"
-          - "Built end-to-end ML pipeline for estimating delivery times based on infrastructure analysis"
-          - "Combined computer vision with logistics domain knowledge to enhance shipment planning"
+        summary: "Thesis: ResNet-based computer vision on satellite imagery for logistics performance prediction"
 
       - institution: Universität Trier
         area: Business Administration
@@ -47,140 +125,32 @@ cv:
         start_date: 2013-09
         end_date: 2017-06
         location: Trier, DE
-        summary: Focus on business intelligence and statistical analysis
-
-    experience:
-      - company: Lobster
-        position: Principal AI Engineer
-        date:
-        start_date: 2025-03
-        end_date: present
-        location: Tutzing, DE
-        summary: Leading development of Pathfinder, an AI copilot for enterprise EDI and data integration platform coordinating data across global supply chains. Building and scaling agentic AI infrastructure and Team Caprica to support production systems serving companies including HARIBO, Hermes, HP, Coop, Lindt & Sprüngli, and Logwin.
-        highlights:
-          - Built Pathfinder from architecture to production deployment, serving 2000+ companies in supply chain and logistics with context-aware assistance for EDI workflows and data orchestration
-          - Designed and implemented scalable agentic AI microservice infrastructure using LangGraph, pydantic_ai, DSPy, MCP, and Google's A2A protocol for composable multi-agent systems
-          - Built and mentor Team Caprica, recruiting 3 AI Engineers through full technical interview and assessment process
-          - Delivered keynote "From Data to Intelligence - The Future of Supply Chains" at Lobster Data Hero Summit with AWS Head of Technology and AI startup leaders
-          - Built internal automation including HubSpot data enrichment pipeline and chatbot replacement, reducing manual effort and improving response quality
-          - Coordinate with stakeholders across business units including CTO and CPO, leading AI enablement and participating in Engineering Management
-          - Published articles on agentic AI and data integration for Illuminaire, TechRadar, Supply Chain Strategy, and DIGITALE WELT
-
-      - company: Lobster
-        position: Principal Data Scientist
-        date:
-        start_date: 2024-05
-        end_date: 2025-02
-        location: Tutzing, DE
-        summary: Joined as first AI practitioner to establish AI strategy and technical foundation. Researched and defined approach for enterprise AI implementation.
-        highlights:
-          - Developed company-wide AI strategy from scratch, working with C-Level to define vision and align initiatives with business objectives
-          - Researched and evaluated AI frameworks, tools, and infrastructure to establish technical foundation for production systems
-          - Designed initial AI solutions including automated technical documentation generation, intelligent data mapping systems, classification models, and semantic knowledge retrieval
-          - Established architecture for API-first knowledge management system enabling unified documentation access
-          - Built collaboration framework between Data Center Cloud IT, Support, and Engineering teams for AI integration
-          - Represented AI initiatives at industry conferences and technical forums
-
-      - company: OTH Regensburg
-        position: Visiting Lecturer
-        date:
-        start_date: 2024-10
-        end_date: present
-        location: Regensburg, DE
-        summary: Teaching fundamentals of programming and AI to Digital Business Management students
-        highlights:
-          - Developed practical curriculum combining Python programming and AI fundamentals
-          - Teaching business management students technical skills for data-driven decision making
-          - Focus on industry-relevant applications and problem-solving approaches
-
-      - company: Lobster Logistics Cloud
-        position: Digital Solutions Manager
-        date:
-        start_date: 2023-10
-        end_date: 2024-05
-        location: Tutzing, DE
-        summary: Built Customer Success function for managed EDI and collaboration network (Lobster subsidiary, now Lobster Data Network). Managed custom integration projects and consulted on backend architecture improvements.
-        highlights:
-          - Built Customer Success team from scratch, recruiting and training 5 team members before transitioning to Principal Data Scientist role
-          - Managed custom integration projects for logistics providers within managed service network built on Lobster ecosystem
-          - Internal consulting with tech lead on backend architecture to support growing customer requirements
-          - Sales engineering and technical consulting for platform capabilities, working with shippers, forwarders, carriers, and customs agencies
-          - Supported platform connecting IoT tracking, blockchain services, and predictive analytics for supply chain transparency
-
-      - company: University of Regensburg
-        position: Postdoctoral Research Associate
-        date:
-        start_date: 2023-03
-        end_date: 2023-09
-        location: Regensburg, DE
-        highlights:
-          - Served as Interim Chair for Controlling and Logistics
-          - Led M.Sc./B.Sc. programs with 250+ students
-          - Supervised research in city logistics and AI applications
-          - Developed advanced analytics curriculum for supply chain optimization
-
-      - company: Freelance
-        position: Data Science Consultant
-        date:
-        start_date: 2021-01
-        end_date: 2023-10
-        location: Regensburg, DE
-        highlights:
-          - Developed freight tariffs for six German Transportation Service Providers
-          - Worked with Prof. Dr. Andreas Otto on logistics optimization projects
-
-      - company: Braun & Kunkler GbR
-        position: Co-Founder & Technical Lead
-        date:
-        start_date: 2020-01
-        end_date: 2022-04
-        location: Burglengenfeld, DE
-        highlights:
-          - Developed RESET App for student self-regulation
-          - Worked with medical professionals on behavioral intervention strategies
-          - Full-stack development including ML model integration
-
-      - company: University of Regensburg
-        position: Research Fellow
-        date:
-        start_date: 2019-09
-        end_date: 2023-03
-        location: Regensburg, DE
-        highlights:
-          - Research on ML applications for logistics network optimization
-          - Supervised 50+ theses in Supply Chain Management and AI
-          - Developed predictive models for transportation networks
-          - Applied data science approaches to logistics research
-
-      - company: Early Career Experience
-        position: Various Positions
-        date:
-        start_date: 2017-08
-        end_date: 2019-08
-        location: Germany
-        summary: Early career positions in research and industry
-        highlights:
-          - "Research Assistant at University of Regensburg (2018-2019): Supply Chain Management research and teaching"
-          - "Digital Solutions at Veolia Deutschland (2017): Implemented BizzPark app for business park management"
 
     skills:
-      - label: AI Leadership
-        details: AI Strategy Development, Enterprise AI Architecture, Team Building & Mentorship, Stakeholder Management, Technical Vision
+      - label: Leadership
+        details: AI strategy, technical roadmaps, building and scaling AI teams, hiring, C-level and cross-team alignment
 
-      - label: AI/ML Expertise
-        details: Agentic AI Systems, Large Language Models, Multi-Agent Systems, Computer Vision, Neural Networks (ResNet, Transformers), Machine Learning, MLOps
+      - label: Architecture
+        details: Agentic and multi-agent systems, cloud-native microservices on AWS (Bedrock, Lambda, Fargate, SageMaker), MCP, A2A, document processing (IDP/OCR), knowledge graphs (RDF/OWL, SHACL)
 
-      - label: Technical Infrastructure
-        details: AWS (SageMaker, Bedrock, Lambda, Fargate), Cloud Architecture, Microservices, Distributed Systems
+      - label: Engineering
+        details: Python, Angular, LangGraph, pydantic_ai, DSPy, BAML, FastAPI, Docker, PyTorch, Hugging Face, SQL
 
-      - label: Data Engineering
-        details: Knowledge Graphs, ETL Pipeline Design, Python, SQL, R, Go
+      - label: Domain
+        details: EDI and data integration (EDIFACT, IDoc, Peppol UBL), supply chain and logistics
 
-      - label: AI Frameworks & Tools
-        details: LangGraph, pydantic_ai, DSPy, LangChain, PyTorch, Hugging Face Transformers, BAML, FastAPI, Docker
-
-      - label: AI Protocols & Standards
-        details: Model Context Protocol (MCP), Agent-to-Agent Protocol (A2A), API Design
+    books:
+      - title: "Agentic AI: Zieloptimierte und automatisierte Geschäftsprozesse durch KI-basierte Multi-Agenten-Systeme"
+        authors:
+          - "***Jan Kunkler***"
+        date: 2026-12
+        url: https://link.springer.com/book/9783658531249
+        journal: "Springer Vieweg, series KI – Best Practice in Industrie, Dienstleistung und Verwaltung; ISBN 978-3-658-53124-9; release 22 December 2026"
+      - title: "Road Network Performance Measurements"
+        authors:
+          - "***Jan Kunkler***"
+        doi: 10.5283/EPUB.53802
+        date: 2023-03
 
     articles & media:
       - title: "Why agentic AI will not replace your team, it might help you grow it"
@@ -225,13 +195,6 @@ cv:
         date: 2025-04
         url: https://www.bigdata-insider.de/die-rolle-von-agentic-ai-in-der-unternehmens-it-der-zukunft-a-d376e9d58a00b81050ebcc0a16da6ad2/
         journal: BigData-Insider
-
-    books:
-      - title: "Road Network Performance Measurements"
-        authors:
-          - "***Jan Kunkler***"
-        doi: 10.5283/EPUB.53802
-        date: 2023-03
 
     peer-reviewed publications:
       - title: Sustainable City Evaluation Using the Database for Estimation of Road Network Performance
@@ -395,6 +358,6 @@ locale:
     - December
 
 rendercv_settings:
-  date: "2025-11-01"
+  date: "2026-11-05"
   render_command:
   bold_keywords: []
